@@ -41,7 +41,7 @@ def seq_out(prev_lines, linelens2, chrom_no, bps):
     trim2 = -1 * (linelens2[seq_lines2] - end)
         
     #get the seq data
-    start_seq = seq_lines1 + prev_lines + 1 #MAY GET WRONG LINES HERE!!!
+    start_seq = seq_lines1 + prev_lines + 1
     end_seq = seq_lines2 + prev_lines + 1
     seq_dat = ''
     for txt in range(start_seq, end_seq + 1):
