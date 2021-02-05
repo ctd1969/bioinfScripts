@@ -18,3 +18,4 @@ Usage: `python Concatenator.py fastaFolder alignment.fas`
 [5] vcf2fineStr.py converts Stacks VCF outputs to fineRADstructure formatted files (NB does not consider phasing of data – see fineRADstructure manual).
 Usage: `python vcf2fineStr.py batch_0.vcf popinfo.csv outFile.txt`
 
+[6] ref2fasta.py takes a reference genome (from NCBI but any format should work), an input of chromosome number, and the sequence range (bases) you want chopping out `python ref2fasta.py`
