@@ -30,6 +30,7 @@ def refSumm(ref_gen, chrom_no):
 
     return prev_lines, np.array(linelens[chrom_no]) #line end counts for ea line in this chr
 
+#chop out sequence
 def seq_out(prev_lines, linelens2, chrom_no, bps):
     start, end = bps[0] - 1, bps[-1] #75bp before & after 1st & last SNP
     seq_lines1 = np.where(linelens2 > start)[0][0] #get line # of seq data containing start posn
