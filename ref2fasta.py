@@ -2,8 +2,8 @@ import numpy as np
 import linecache
 
 ref_gen = 'GCA_004354405.1_ASM435440v1_genomic.fna' #From NCBI
-chrom_no = 3
-bps = [20000, 22000]
+chrom_no = 3 #i.e. Chromosome 3
+bps = [20000, 22000] #between bases 20000-22000
 
 def main(chrom_no):
     print(f"Chrom: {chrom_no}:{bps}")
